@@ -164,8 +164,7 @@ address{
 }
 
 .button {
-    display: block;
-    min-width: 169px;
+    
 }
 
 .hero-buy-btn:focus,
@@ -187,6 +186,8 @@ address{
     border: 0;
     padding: 16px 32px;
     cursor: pointer;
+    display: block;
+    min-width: 169px;
 }
 /* ---------------/----------------- */
 /* ------------------Features----------- */
@@ -195,16 +196,22 @@ address{
     margin-bottom: 120px;
 }
 
+.visually-hidden {
+    white-space: nowrap;
+    overflow: hidden;
+  }
+
 .features-list {
     display: flex;
     padding-left: 156px;
     padding-right: 156px;
     gap: 24px;
+    width: calc((100% - 72px) / 4);
 }
 
-.features-item {
-    width: calc((100% - 72px) / 4); 
-}
+/*.features-item {
+    
+}*/
 
 .features-subtitle {
     color: #2E2F42;
@@ -233,6 +240,8 @@ address{
 }
 
 .container{
+    padding: 32px 0;
+    margin-bottom: 72px;
     padding: 32px 0;
 }
 
