@@ -55,11 +55,14 @@ address{
 .header{
     padding-top: 25.5px;
     padding-bottom: 25.5px;
+    border-bottom:  1px solid #e7e9fc;
 }
 
 .header-container{
     display: flex;
     gap: 40px;
+    width: 1158px;
+    margin: 0 auto;
 }
 
 .header-navigation{
@@ -67,6 +70,7 @@ address{
     flex-grow: 1;
     align-items: center;
     gap: 76px;
+    padding: 24px 0 24px;
 
 }
 
@@ -79,6 +83,7 @@ address{
     letter-spacing: 0.03em;
     text-transform: uppercase;
     display: flex;
+    margin-right: 76px;
 }
 
 .header-logo {
