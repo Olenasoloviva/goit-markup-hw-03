@@ -97,7 +97,6 @@ address{
 .header-menu-list{
     display: flex;
     gap: 40px;
-    padding: 24px 0;
 }
 
 .header-menu-link {
@@ -108,9 +107,9 @@ address{
     letter-spacing: 0.02em;
 }
 
-/*.header-menu-item{
+.header-menu-item{
     padding: 24px 0;
-}*/
+}
 
 .header-menu-link:hover,
 .header-menu-link:focus{
