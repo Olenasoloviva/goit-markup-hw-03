@@ -34,11 +34,7 @@ address{
 }
 
 .container{
-    width: 100%;
-    max-width: 1440px;
-    padding-left: 15px;
-    padding-right: 15px;
-  
+    display: flex;
 }
 
 
@@ -48,7 +44,7 @@ address{
 
 .visually-hidden {
     white-space: nowrap;
-    overflow: hidden;
+
   }
 /* -----------------Header--------------- */
 
@@ -107,9 +103,9 @@ address{
     letter-spacing: 0.02em;
 }
 
-.header-menu-item{
+/*.header-menu-item{
     padding: 24px 0;
-}
+}*/
 
 .header-menu-link:hover,
 .header-menu-link:focus{
@@ -257,10 +253,6 @@ address{
     text-transform: capitalize;
     margin-bottom: 72px;
     margin: 0 auto;
-}
-
-.taste-name{
-    padding: 32px 0;
 }
 
 .taste-list {
