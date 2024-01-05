@@ -34,7 +34,6 @@ address{
 }
 
 .container {
-    width: 100%;
     max-width: 1158px;
     padding-left: 15px;
     padding-right: 15px;
@@ -67,6 +66,7 @@ address{
 }
 
 .header-container{
+    display: flex;
 }
 
 .header-navigation{
@@ -109,10 +109,11 @@ address{
     font-weight: 500;
     line-height: 1.5; /* 150% */
     letter-spacing: 0.02em;
+    padding: 24px 0;
+    display: block;
 }
 
 /*.header-menu-item{
-    padding: 24px 0;
 }*/
 
 .header-menu-link:hover,
