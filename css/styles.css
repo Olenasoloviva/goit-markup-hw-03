@@ -34,7 +34,7 @@ address{
 }
 
 .container{
-    display: flex;
+    width:1158px;
 }
 
 
@@ -187,6 +187,7 @@ address{
     cursor: pointer;
     display: block;
     min-width: 169px;
+    height: 56px;
 }
 /* ---------------/----------------- */
 /* ------------------Features----------- */
