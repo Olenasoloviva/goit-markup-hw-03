@@ -35,6 +35,9 @@ address{
 
 .container{
     width:1158px;
+    display: flex;
+    margin: 0 auto;
+    padding: 0 15px;
 }
 
 
@@ -55,10 +58,7 @@ address{
 }
 
 .header-container{
-    display: flex;
-    width:1158px;
-    margin: 0 auto;
-    padding: 0 15px;
+    
 }
 
 .header-navigation{
