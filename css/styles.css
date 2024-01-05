@@ -46,8 +46,8 @@ address{
 }
 
 .visually-hidden {
-    position: absolute;
     display: none;
+    position: absolute;
     width: 1px;
     height: 1px;
     margin: -1px;
