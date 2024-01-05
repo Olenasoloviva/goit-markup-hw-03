@@ -55,6 +55,7 @@ address{
     white-space: nowrap;
     clip-path: inset(100%);
     clip: rect(0 0 0 0);
+    overflow: hidden;
   }
 /* -----------------Header--------------- */
 
@@ -203,11 +204,6 @@ address{
 .features {
     padding: 120px 0;
 }
-
-.visually-hidden {
-    white-space: nowrap;
-    overflow: hidden;
-  }
 
 .features-list {
     display: flex;
