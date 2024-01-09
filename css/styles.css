@@ -61,7 +61,7 @@ address{
     display: flex;
     flex-grow: 1;
     align-items: center;
-    gap: 76px;
+    margin-right: 76px;
 }
 
 .header-link-logo{
@@ -97,7 +97,7 @@ address{
     font-weight: 500;
     line-height: 1.5; /* 150% */
     letter-spacing: 0.02em;
-    display: block;
+    display: inline-block;
     padding: 24px 0;
 }
 
@@ -111,6 +111,7 @@ address{
 }
 
 .header-address{
+    display:flex;
     font-style: normal;
 }
 
@@ -158,11 +159,14 @@ address{
     letter-spacing: 0.02em;
     margin-bottom: 48px;
     max-width: 496px;
+    display: block;
+    margin-left: auto;
+    margin-right: auto;
 }
 
-.button {
+/*.button {
     
-}
+}*/
 
 .hero-buy-btn:focus,
 .hero-buy-btn:hover{
@@ -184,8 +188,8 @@ address{
     padding: 16px 32px;
     cursor: pointer;
     display: block;
-    min-width: 169px;
-    height: 56px
+    margin-left: auto;
+    margin-right: auto;
 }
 /* ---------------/----------------- */
 /* ------------------Features----------- */
@@ -291,9 +295,9 @@ address{
     padding: 120px 0 120px 0;
 }
 
-.container{
+/*.container{
     
-}
+}*/
 
 .portfolio-title {
     color:#2E2F42;
